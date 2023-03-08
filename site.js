@@ -40,10 +40,78 @@ const vue_app = Vue.createApp({
       }
     },
     // ^^^^^ Shows the name of the person, the title, and the link to my github
-      methods: {
-            /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
-      }
-})
+     
+
+ methods: {
+            getMonthText(dateArray){
+                 let month = ""
+                  switch (dateArray[1]) {
+                 
+                        case 1:
+                              month = "January";
+                               break
+                        case 2:
+                              month = "February";
+                              break
+                        case 3:
+                              month = "March";
+                              break
+                        case 4:
+                              month = "April";
+                               break
+                        case 5:
+                              month = "May";
+                              break
+                        case 6:
+                              month = "June";
+                              break
+                        case 7:
+                              month = "July";
+                              break
+                        case 8:
+                              month = "August";
+                               break
+                        case 9:
+                              month = "September";
+                              break
+                        case 10:
+                              month = "October";
+                              break
+                        case 11:
+                              month = "November";
+                               break
+                        case 12:
+                              month = "December";
+                  }
+                  return month +  " " + dateArray[2] + ", " + dateArray[0]
+            },
+            posterClick(index){
+                  if (
+                        this.movies[index].posterindex >=
+                        this.movies[index].posterindex - 1
+                  ) {
+                        this.movies[index].posterindex = 0;
+                  } else {
+                        this.movies[index].posterindex++;
+                  }
+                  },
+
+
+
+                  
+           
+            timeText(min){
+                  let hours = Math.floor(min / 60)
+                  let minutes = min % 60
+                  return hours + 'h ' + minutes + 'm '
+            },
+             },
+      },
+});
+
+
+
+
 
 vue_app.mount("#vue_app")
 
