@@ -85,6 +85,8 @@ const vue_app = Vue.createApp({
                   }
                   return month +  " " + dateArray[2] + ", " + dateArray[0]
             },
+
+            //This below is the javascript for when you click on the poster, it goes to the next image
             posterClick(index){
                   if (
                         this.movies[index].posterindex >=
