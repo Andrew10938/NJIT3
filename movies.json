@@ -15,13 +15,13 @@
       },
       {
             "title": "Rocky II",
-            "iscore": 9.2,
-            "rating": "R",
-            "runtime": 175,
-            "released": [1972, 3, 24],
+            "iscore": 7.3,
+            "rating": "PG",                                                          
+            "runtime": 119,
+            "released": [1979, 6, 15],
             "country": "USA",
-            "posters": ["img/godfather.jpg", "img/godfather_2.jpg", "img/godfather_3.jpg"],
-            "imdb": "http://www.imdb.com/title/tt0068646",
+            "posters": ["https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/5190Z57CJPL._AC_UF894,1000_QL80_.jpg", "https://static.polter.pl/sub/_bn29436.jpg?t=1289516344", "https://cdn1.naekranie.pl/media/cache/amp/2014/11/7205746.3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0079817/?ref_=nv_sr_srsg_0",
             "website": "https://www.facebook.com/thegodfather",
             "likes": 928,
             "dislikes": 109,
@@ -29,10 +29,10 @@
       },
       {
             "title": "The Godfather: Part II",
-            "iscore": 9.0,
+            "iscore": 9.0,                                                       
             "rating": "R",
             "runtime": 202,
-            "released": [1974, 12, 20],
+            "released": [1974, 12, 20],                                 
             "country": "USA",
             "posters": ["img/godfather2.jpg", "img/godfather2_2.jpg"],
             "imdb": "http://www.imdb.com/title/tt0071562",
@@ -68,5 +68,51 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      
+      },
+
+
+      {
+            "title": "Cars",
+            "iscore": 7.2,                                                       
+            "rating": "G",
+            "runtime": 117,
+            "released": [2006, 6, 9],                                 
+            "country": "USA",
+            "posters": ["https://lumiere-a.akamaihd.net/v1/images/p_cars_19643_4405006d.jpeg", "https://www.themoviedb.org/t/p/w500/u4G8EkiIBZYx0wEg2xDlXZigTOZ.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0317219/?ref_=nv_sr_srsg_0",
+            "website": "https://en.wikipedia.org/wiki/Cars_(film)",
+            "likes": 855,
+            "dislikes": 99,
+            "posterindex": 0
+      },
+      {
+            "title": "Ready Player One",
+            "iscore": 7.4,
+            "rating": "PG-13",
+            "runtime": 140,
+            "released": [2008, 7, 18],
+            "country": "USA",
+            "posters": ["https://m.media-amazon.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_.jpg", "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/618stJ-jeAL.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1677720/?ref_=fn_al_tt_1",
+            "website": "https://en.wikipedia.org/wiki/Ready_Player_One_(film)",
+            "likes": 828,
+            "dislikes": 127,
+            "posterindex": 0
+      },
+      {
+            "title": "The Karate Kid",
+            "iscore": 7.3,
+            "rating": "PG",
+            "runtime": 126,
+            "released": [1984, 6, 22],
+            "country": "USA",
+            "posters": ["https://m.media-amazon.com/images/M/MV5BOTRkYWY4OTAtMTBlNi00MDc0LThmNWYtOWFkYjY0OGIxZTI1XkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg", "https://m.media-amazon.com/images/M/MV5BMTIxMDY5NTg5M15BMl5BanBnXkFtZTYwMDI3MjQ5._V1_.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0087538/?ref_=fn_al_tt_1",
+            "website": "https://en.wikipedia.org/wiki/The_Karate_Kid",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
+      
       }
 ]
